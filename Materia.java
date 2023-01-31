@@ -10,7 +10,8 @@ public class Materia{
     }
 
     public void setIdMateria (long idNuevoMateria) {
-         idMateria = idNuevoMateria ;
+        idMateria = idNuevoMateria ;
+        idNuevoMateria = idMateria;
     }
 
     public long getIdMateria (){
