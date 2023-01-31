@@ -10,7 +10,11 @@ public class Materia{
     }
 
     public void setIdMateria (long idNuevoMateria) {
+<<<<<<< HEAD
          idMateria = idNuevoMateria ;
+=======
+        idNuevoMateria = idMateria;
+>>>>>>> 6ed1599a59e84d00a595e1772084be2ad88eac43
     }
 
     public long getIdMateria (){
@@ -22,10 +26,14 @@ public class Materia{
     }
 
     public void setNombreMat(String nombreMateria) {
+<<<<<<< HEAD
          nombreMat = nombreMateria;
     }
 
     public void imprimirDetalles(){
         System.out.println("Este es la Id de la Materia: " + idMateria + " y el nombre de la materia: " + nombreMat +".");
+=======
+        nombreMateria = nombreMat;
+>>>>>>> 6ed1599a59e84d00a595e1772084be2ad88eac43
     }
 }
