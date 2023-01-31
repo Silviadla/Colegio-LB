@@ -8,4 +8,24 @@ public class Materia{
         this.idMateria = idMateria ;
         this.nombreMat = nombreMat;
     }
+
+    public void setIdMateria (long idNuevoMateria) {
+         idMateria = idNuevoMateria ;
+    }
+
+    public long getIdMateria (){
+        return idMateria;
+    }
+
+    public String getNombreMat() {
+        return nombreMat;
+    }
+
+    public void setNombreMat(String nombreMateria) {
+         nombreMat = nombreMateria;
+    }
+
+    public void imprimirDetalles(){
+        System.out.println("Este es la Id de la Materia: " + idMateria + " y el nombre de la materia: " + nombreMat +".");
+    }
 }
