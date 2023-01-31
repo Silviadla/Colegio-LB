@@ -8,4 +8,20 @@ public class Materia{
         this.idMateria = idMateria ;
         this.nombreMat = nombreMat;
     }
+
+    public void setIdMateria (long idNuevoMateria) {
+        idNuevoMateria = idMateria;
+    }
+
+    public long getIdMateria (){
+        return idMateria;
+    }
+
+    public String getNombreMat() {
+        return nombreMat;
+    }
+
+    public void setNombreMat(String nombreMateria) {
+        nombreMateria = nombreMat;
+    }
 }
