@@ -5,8 +5,33 @@ public class Alumno{
     /**
      * Constructor for objects of class Materia
      */
-    public Alumno(int idAlumno, String nombre){
+    public Alumno(int idAlumno, String nombre, Materia asignatura){
         this.idAlumno = idAlumno;
         this.nombre = nombre;
+        this.asignatura = asignatura;
+    }
+
+    public void setIdAlumno (int idAlumnoNuevo) {
+        idAlumno = idAlumnoNuevo ;
+    }
+    
+    public int getIdAlumno (){
+        return idAlumno;
+    }
+
+    public void setNombre (String NombreNuevo) {
+        nombre = NombreNuevo;
+    }
+    
+    public String getNombre (){
+        return nombre;
+    }
+
+    public void setAsignatura (Materia asignaturaNueva) {
+        asignatura = asignaturaNueva;
+    }
+    
+    public Materia getAsignatura (){
+        return asignatura;
     }
 }
