@@ -36,15 +36,10 @@ public class Alumno{
         return asignatura;
     }
 
-    public int getIdAlumno (){
-        return idAlumno;
-    }
-
-    public String getNombre (){
-        return nombre;
-    }
-
-    public Materia getAsignatura (){
-        return asignatura;
+    public void imprimirDetalles(){
+        System.out.println("Esta es la Id del Alumno: " + idAlumno);
+        System.out.println("Este es el nombre del alumno: " + nombre );
+        System.out.println("Esta es la Id de la Asignatura: " + asignatura.getIdMateria() );
+        System.out.println("Este es el nombre de la asignatura: " + asignatura.getNombreMat()+".");
     }
 }
