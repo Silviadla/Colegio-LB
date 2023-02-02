@@ -1,3 +1,4 @@
+
 public class Alumno{
     private int idAlumno;
     private String nombre;
@@ -31,6 +32,18 @@ public class Alumno{
         asignatura = asignaturaNueva;
     }
     
+    public Materia getAsignatura (){
+        return asignatura;
+    }
+
+    public int getIdAlumno (){
+        return idAlumno;
+    }
+
+    public String getNombre (){
+        return nombre;
+    }
+
     public Materia getAsignatura (){
         return asignatura;
     }
